@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^cv.ricafrente.com$ [NC]
+RewriteRule ^(.*)$ /work/$1  [L]
+AddHandler x-mapp-php6 .html .htm
